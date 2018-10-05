@@ -1,50 +1,51 @@
 
 body{
-
-    background-color: gray;
+    font-family: "Amiri Quran";
+    background: gray;
+    border: solid black;
+    border-radius: 20px;
 
 }
-
-
-
 h1{ display:inline;
     position: absolute;
     left: 44%;
     border: solid black;
     background: red;
+    padding: 10px;
 
 }
 p{
     display: inline-block;
     position: relative;
-    top: 7em;
+    top: 10em;
     left: 45em;
     font-family: "Arial Black";
 
 
 
+
 }
-a{
+#test{
+
+}
+span{
 display: inline;
     position: absolute;
-    bottom: 70%;
+    bottom: 60%;
     left: 30%;
     font-family: "Arial Black";
     border: solid black;
     background-color: red;
+
 }
 #liste{ display: inline-block;
     position: absolute;
     width: 100%;
-    top: 40%;
+    top: 50%;
     font-family:Arial ;
     border-radius: 10px;
 
 }
-
-
-
-
 #jeux{
     display: inline-block;
     position: absolute;
@@ -63,16 +64,26 @@ display: inline;
     display: inline-block;
     position: absolute;
     left: 30%;
-    border: solid black;
+    border: solid ;
 
-} #moi{
-    position:absolute;
+
+}
+#reseaux{
     display: inline-block;
-    bottom: 110px;
-    left: 30%;
-  }
-  #resaux{
-      position: relative;
-      top: 200px;
+    width: 100px;
+        position: relative;
+    top: 30em;
+    left: 70%;
+        border: solid black;
+    border-radius: 10px;
 
-  }
+
+}
+#moi{
+    display: inline-block;
+    position: relative;
+    left:30%;
+    bottom: 2em;
+}
+
+
